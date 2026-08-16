@@ -10,7 +10,7 @@ ChatAssistance is a SwiftUI chat client that sends questions to a local streamin
 
 ## Resources
 
-![](https://github.com/ram2386/AIAssignment-Frontend-ChatAssistance/main/Resources/ChatVideo.gif)
+<img src="https://raw.githubusercontent.com/ram2386/AIAssignment-Frontend-ChatAssistance/main/Resources/ChatVideo.gif" height="400" />
 
 <video src="Resources/ChatVideo.mov" controls width="640">
   Your browser does not support the video tag.
