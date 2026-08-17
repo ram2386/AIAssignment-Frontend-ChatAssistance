@@ -6,14 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		940FE281302C74E300EF4C2E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 940FE280302C74E300EF4C2E /* Alamofire */; };
-		940FE282302C780000EF4C2E /* ChatVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 940FE284302C780000EF4C2E /* ChatVideo.mov */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		940FE271302C740B00EF4C2E /* ChatAssistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAssistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		940FE284302C780000EF4C2E /* ChatVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ChatVideo.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -29,7 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940FE281302C74E300EF4C2E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +49,6 @@
 		940FE283302C780000EF4C2E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				940FE284302C780000EF4C2E /* ChatVideo.mov */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -81,7 +73,6 @@
 			);
 			name = ChatAssistance;
 			packageProductDependencies = (
-				940FE280302C74E300EF4C2E /* Alamofire */,
 			);
 			productName = ChatAssistance;
 			productReference = 940FE271302C740B00EF4C2E /* ChatAssistance.app */;
@@ -112,7 +103,6 @@
 			mainGroup = 940FE268302C740B00EF4C2E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				940FE27F302C74E300EF4C2E /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 940FE272302C740B00EF4C2E /* Products */;
@@ -129,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940FE282302C780000EF4C2E /* ChatVideo.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,25 +340,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		940FE27F302C74E300EF4C2E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.12.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		940FE280302C74E300EF4C2E /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 940FE27F302C74E300EF4C2E /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 940FE269302C740B00EF4C2E /* Project object */;
 }
